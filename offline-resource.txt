@@ -1,0 +1,90 @@
+
+修改已有offset到支持离线模式
+
+-----------------------------------------离线时报错
+angular.js:1 
+angular-route.js:1
+angular-resource.js:1
+netdna.bootstrapcdn.com/bootswatch/3.0.3/slate/bootstrap.min.css:1
+bootstrap.min.js:1 
+highstock.js:1 
+exporting.js:1 
+cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js:1 
+cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js:1 
+jquery-1.10.2.min.js:1 
+
+
+
+directives.js:3 Uncaught ReferenceError: angular is not defined
+    at directives.js:3
+controllers.js:1 Uncaught ReferenceError: angular is not defined
+    at controllers.js:1
+app.js:1 Uncaught ReferenceError: angular is not defined
+    at app.js:1
+:8089/favicon.ico:1 
+
+
+-------------------------------------------缺少的离线文件
+//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js
+//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-route.js
+//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-resource.js
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-route.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-resource.js"></script>
+
+
+
+
+//netdna.bootstrapcdn.com/bootswatch/3.0.3/slate/bootstrap.min.css
+
+<link href="//netdna.bootstrapcdn.com/bootswatch/3.0.3/slate/bootstrap.min.css" rel="stylesheet">
+    
+
+
+
+
+
+//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js
+//code.highcharts.com/stock/highstock.js
+//code.highcharts.com/stock/modules/exporting.js
+//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js
+//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js
+//code.jquery.com/jquery-1.10.2.min.js
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.highcharts.com/stock/highstock.js"></script>
+<script src="//code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+
+
+
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
